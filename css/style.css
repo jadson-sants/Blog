@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body,html{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+/*** Inicio header***/
+
+.container{
+	width: 100%;
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+header{
+	padding: 20px 2% 35px 2%;
+    background: white;
+	height: 90px;
+    border-bottom: 2px solid #ccc;
+}
+
+header div.logo{
+	float: left;
+}
+
+header div.logo img{
+    padding-top: 5px;
+    width: 100%;
+}
+
+header nav.menu{
+	float: right;
+}
+
+nav.menu ul{
+    list-style-type: none;
+}
+
+nav.menu ul li{
+    float: left;
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+nav.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+/*** Aqui termina o header***/
+
+/*** Content inicio ***/
+
+.banner img{
+    position: relative;
+    top: 30px;
+    width: 1150px;
+    height: 470px;
+}
+
+.icon img{
+    position: relative;
+	top:40px;
+	left:50%;
+	margin-left: -20px;
+	width: 15px;
+	height: 15px;
+    cursor: pointer;
+}
+
+.icon img:hover{
+    background-image: url("../images/heart\(1\).png");
+    background-size: 100% 100%;
+    position: relative;
+	top:40px;
+	left:50%;
+	margin-left: -20px;
+	width: 15px;
+	height: 15px;
+}
+
+.icon p{
+    text-align: center;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+div.titulo{
+    text-align: center;
+    padding-top: 5px;
+}
+
+div.titulo h2{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+div.titulo p{
+    color: #848484;
+    font-size: 16px;
+}
+
+/*** Fim conteúdo inicio***/
+/*** Inicio news***/
+
+div.news{
+    margin-top: 40px;
+    border-top: 2px solid #ccc;
+}
+
+div.news h1{
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+div.vitrine-news{
+    float: left;
+    width: 33.3%;
+}
+
+div.news1 img{
+    width: 100%;
+    border: 8px solid white;
+    cursor: pointer;
+}
+
+div.info-news p{
+    font-size: 12px;
+    padding-left: 8px;
+    color: #848484;
+}
+
+div.info-news h2{
+    font-size: 18px;
+    padding-left: 8px;
+    font-weight: normal;
+}
+
+div.info-news a{
+    color: black;
+    text-decoration: none;
+}
+
+/*** Fim news ***/
+/*** Inicio lifestyle e places***/
+
+div.lifestyle{
+    float: left;
+    width: 48%;
+    margin-top: 60px;
+    padding-top: 15px;
+    border-top: 2px solid #ccc;
+}
+
+div.vitrine-lifestyle{
+    float: left;
+    width: 33.3%;
+    margin-top: 25px;
+    padding-left: 15px;
+}
+
+div.lifestyle1 img{
+    width: 100%;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+div.lifestyle2 img{
+    width: 100%;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+div.places{
+    float: right;
+    width: 48%;
+    margin-top: 60px;
+    padding-top: 15px;
+    border-top: 2px solid #ccc;
+}
+
+div.vitrine-places{
+    float: left;
+    width: 33.3%;
+    margin-top: 25px;
+    padding-left: 15px;
+}
+
+div.places1 img{
+    width: 100%;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+div.places2 img{
+    width: 100%;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+/*** Fim lifestyle e places***/
+/*** Inicio pessoas***/
+
+div.texto{
+    float: left;
+    width: 25%;
+    margin-top: 60px;
+    border-top: 2px solid #ccc;
+}
+
+div.texto h2{
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+div.texto p{
+    font-size: 14px;
+    padding-top: 8px;
+    color: #848484;
+}
+
+div.texto input[type=button]{
+    background-color: #ccc;
+    width: 25%;
+    height: 25px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+div.texto input:hover[type=button]{
+    background-color: #848484;
+    color: white;
+}
+
+div.pessoas-wraper{
+    float: right;
+    width: 70%;
+    max-height: 300px;
+    margin-top: 60px;
+    border-top: 2px solid #ccc;
+}
+
+div.pessoas h2{
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+div.colunas{
+    padding-top: 10px;
+}
+
+div.coluna1{
+    width: 20%;
+}
+
+div.coluna1-img img{
+    float: left;
+    width: 100%;
+}
+
+div.coluna2{
+    float: left;
+    width: 33.3%;
+    padding-left: 15px;
+}
+
+div.coluna2 .coluna2-texto h2{
+    font-weight: 300;
+}
+
+div.coluna2 .coluna2-texto p{
+    color: #848484;
+    font-size: 16px;
+}
+
+div.coluna3-img img{
+    float: left;
+    width: 20%;
+}
+
+div.coluna4{
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+}
+
+div.coluna4 .coluna4-texto h2{
+    font-weight: 300;
+}
+
+div.coluna4 .coluna4-texto p{
+    color: #848484;
+    font-size: 16px;
+}
+
+div.coluna5{
+    width: 20%;
+}
+
+div.coluna5-img img{
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+}
+
+div.coluna6{
+    float: left;
+    width: 33.3%;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+div.coluna6 .coluna6-texto h2{
+    font-weight: 300;
+}
+
+div.coluna6 .coluna6-texto p{
+    color: #848484;
+    font-size: 16px;
+}
+
+div.coluna7-img img{
+    float: left;
+    width: 20%;
+    padding-top: 10px;
+}
+
+div.coluna8{
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+div.coluna8 .coluna8-texto h2{
+    font-weight: 300;
+}
+
+div.coluna8  .coluna8-texto p{
+    color: #848484;
+    font-size: 16px;
+}
+
+/*** Fim pessoas***/
+/*** Inicio footer***/
+
+footer section{
+    padding: 200px 0;
+    height: 550px;
+}
+
+div.sessoes{
+    padding: 60px 0;
+    float: left;
+	width: 25%;
+}
+
+div.sessoes h2{
+    font-size: 20px;
+    font-weight: 300; 
+}
+
+div.parceiros{
+    padding: 10px 0;
+}
+
+div.parceiros ul{
+    padding-left: px;
+}
+
+div.parceiros ul li{
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+div.parceiros a{
+    color: black;
+    text-decoration: none;
+}
+
+div.sessoes{
+    width: 25%;
+}
+
+div.sessoes .about{
+    width: 70%;
+}
+
+div.sessoes h3{
+    font-size: 18px;
+    font-weight:normal;
+}
+
+div.sessoes .about p{
+    color: #848484;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+div.sessoes .tags{
+    width: 65%;
+}
+
+div.sessoes .design{
+    float: left;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+div.sessoes .framework{
+    float: right;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+}
+
+div.sessoes .motion{
+    float: right;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+}
+
+div.sessoes .themeforest{
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+
+div.sessoes .video{
+    float: left;
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+}
+
+div.sessoes .wordpress{
+    text-decoration: none;
+    color: black;
+}
+
+div.rodape h1{
+    color: #848484;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 15px;
+}
